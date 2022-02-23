@@ -7,7 +7,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: 0 23 * * *
+    - cron: 9 12-13 * * *
 
 
 
