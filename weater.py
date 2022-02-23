@@ -18,7 +18,7 @@ def ServerPush(info): #Server酱推送
     requests.post(api, data=data)
 def main():
     try:
-        tdwt = "你哈珀“
+        tdwt = "你哈珀"
         ServerPush(tdwt)
     except Exception:
         error = '【出现错误】\n　　今日天气推送错误，请检查服务或网络状态！'
